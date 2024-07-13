@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background-color: #f04438;
+    height: 26px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 11.2px;
+    line-height: 18.144px;
+    letter-spacing: normal;
+    text-align: start;
+    font-family: "Open-Sans", sans-serif;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 7vw;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 2px black;
+}
+
+.logo img {
+    height: 36px;
+    max-width: 150px;
+}
+
+.sd_img img {
+    width: 140px;
+    height: 34px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    border: 1px solid rgb(230, 232, 231);
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    width: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.input i {
+    padding: 5px;
+    border: 1px solid rgb(230, 232, 231);
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #555;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #000;
+    margin-top: 10px;
+}
